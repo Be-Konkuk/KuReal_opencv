@@ -1,0 +1,3 @@
+rootProject.name = "KuReal"
+include ':app'
+include ':sdk'
