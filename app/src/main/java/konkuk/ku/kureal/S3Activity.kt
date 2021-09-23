@@ -85,6 +85,9 @@ class S3Activity : AppCompatActivity() {
         uploadWithTransferUtilty(file.getName(), file); // file.getName()으로 파일 이름 가져옴
     }
 
+    /**
+     * S3에 사진 업로드하기
+     * local.properties에 aws_accesskey, aws_secret_accesskey 업데이트하*/
     fun uploadWithTransferUtilty(fileName: String?, file: File?) {
         val awsCredentials: AWSCredentials =
             BasicAWSCredentials("${BuildConfig.aws_accesskey}", "${BuildConfig.aws_secret_accesskey}") // IAM 생성하며 받은 것 입력
