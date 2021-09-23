@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity
     }
 
 
-
     private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
         @Override
         public void onManagerConnected(int status) {
@@ -129,7 +128,6 @@ public class MainActivity extends AppCompatActivity
 
         return matResult;
     }
-
 
     protected List<? extends CameraBridgeViewBase> getCameraViewList() {
         return Collections.singletonList(mOpenCvCameraView);

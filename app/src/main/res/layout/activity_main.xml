@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+
+    </data>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:opencv="http://schemas.android.com/apk/res-auto"
@@ -15,4 +19,14 @@
         android:visibility="gone"
         android:id="@+id/activity_surface_view" />
 
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Image and Send S3"
+        android:layout_margin="8dp"
+        android:textSize="13sp"
+        />
+
 </LinearLayout>
+</layout>
